@@ -29,8 +29,8 @@ void selection_sort(int *array, size_t size)
 			array[i] = array[min_idx];
 			array[min_idx] = temp;
 		}
-		/* print the array after each swap*/
-		printf("Array after swap %d: ", i + 1);
+		/*print the array after each swap*/
+		printf("%d", i + 1);
 		for (j = 0; j < (int)size; j++)
 		{
 			printf("%d ", array[j]);
