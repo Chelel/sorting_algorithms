@@ -15,7 +15,7 @@ void swap(int *array, ssize_t item1, ssize_t item2)
 	array[item2] = tmp;
 }
 /**
- * lomuto_partition - function to partition an array into two parts 
+ * lomuto_partition - function to partition an array into two parts
  *@array: array
  *@first: first array element
  *@last: last array element

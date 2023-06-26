@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * insertion_sort_list -  function that places an unsorted element 
+ * insertion_sort_list - function that places an unsorted element
  * at its suitable place in each iteration
  * @list: Dobule linked list to sort
 */
