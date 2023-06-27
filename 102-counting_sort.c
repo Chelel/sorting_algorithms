@@ -1,10 +1,11 @@
 #include "sort.h"
 #include <stdio.h>
 /**
- * counting_sort - sorts an array of integers in ascending order
- * using the Counting Sort algorithm
- * @array: pointer to the array of integers
- * @size: size of the array
+ * get_max - Get the maximum value in an array of integers.
+ * @array: An array of integers.
+ * @size: The size of the array.
+ *
+ * Return: The maximum integer in the array
  */
 int get_max(int *array, int size)
 {
